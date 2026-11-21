@@ -3,5 +3,5 @@ services:
     build: .
     image: slopware-ideas-modeler:latest
     ports:
-      - "${PORT:-8080}:80"
+      - "${HOST_PORT:-8094}:80"
     restart: unless-stopped

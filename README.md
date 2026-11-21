@@ -24,7 +24,7 @@ All modeling happens on the user's device. The server only hosts static files.
 
 ```sh
 docker compose up -d --build
-# open http://<server>:8080  (change the port with PORT=9000 docker compose up -d)
+# open http://<server>:8094  (change the port with HOST_PORT=9000 docker compose up -d)
 ```
 
 The image is a multi-stage build: Node builds the app, then `nginx:alpine` serves `dist/`.
