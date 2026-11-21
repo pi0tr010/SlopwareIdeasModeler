@@ -1,0 +1,10 @@
+node_modules
+dist
+src-tauri/target
+src-tauri/gen
+local-samples
+.git
+*.log
+dist-mcp
+src-tauri/binaries
+releases

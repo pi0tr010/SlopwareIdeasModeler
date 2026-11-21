@@ -1,0 +1,7 @@
+services:
+  slopware-ideas-modeler:
+    build: .
+    image: slopware-ideas-modeler:latest
+    ports:
+      - "${PORT:-8080}:80"
+    restart: unless-stopped

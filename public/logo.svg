@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SlopwareIdeasModeler">
+  <rect width="256" height="256" rx="56" fill="#2F7CF6"/>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="68" r="26" stroke-width="14"/>
+    <path stroke-width="14" d="M128 94 V150 M52 118 H204 M128 150 L68 214 M128 150 L188 214"/>
+  </g>
+</svg>

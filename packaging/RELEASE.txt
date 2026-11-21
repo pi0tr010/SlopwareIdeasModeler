@@ -1,0 +1,32 @@
+SlopwareIdeasModeler 0.1.0
+
+Windows
+  SlopwareIdeasModeler_0.1.0_x64-setup.exe
+  Installs the editor and slopware-mcp.exe in the same directory.
+
+Linux x86_64
+  .deb    Debian, Ubuntu and derivatives
+  .rpm    Fedora, RHEL, openSUSE
+  .AppImage  other distributions (chmod +x, then run)
+
+OpenBSD
+  There is no binary here. On an OpenBSD machine, from the project root:
+    sh packaging/openbsd-build.sh
+  That installs the system libraries, builds the window and the agent program,
+  and prints where the two files are. Copy them into one directory.
+
+Agents
+  In the agent client (Cursor: .cursor/mcp.json):
+
+    {
+      "mcpServers": {
+        "slopware": {
+          "command": "<install dir>/slopware-mcp"
+        }
+      }
+    }
+
+  On Windows the file name is slopware-mcp.exe.
+  Open the editor and click Agent, then Connect. The agent then edits the
+  project on screen, and you can undo each change.
+  With the editor closed, the same program edits .simp files on disk.
